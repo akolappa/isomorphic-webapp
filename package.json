@@ -1,0 +1,19 @@
+{
+  "name": "isomorphic-webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akolappa/isomorphic-webapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akolappa/isomorphic-webapp/issues"
+  },
+  "homepage": "https://github.com/akolappa/isomorphic-webapp#readme"
+}
