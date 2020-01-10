@@ -22,8 +22,8 @@ module.exports = {
   },
   plugins : [
     new HtmlWebpackPlugin({
-      title: "My website",
-      //template: path.resolve(__dirname, "../_template/client.html"),
+      title: "My website", // title will work only if we don't have templates
+      template: path.resolve(__dirname, "../_template/client.html"),
     }),
   ],
 };
