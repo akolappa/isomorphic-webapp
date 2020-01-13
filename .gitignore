@@ -2,3 +2,4 @@ node_modules
 _dist
 _webpack/.DS_Store
 .DS_Store
+.firebase
