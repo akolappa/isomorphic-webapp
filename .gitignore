@@ -3,3 +3,5 @@ _dist
 _webpack/.DS_Store
 .DS_Store
 .firebase
+.firebaserc
+firebase.json

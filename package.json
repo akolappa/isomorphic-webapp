@@ -39,9 +39,11 @@
     "html-webpack-plugin": "^3.2.0",
     "husky": "^3.1.0",
     "webpack": "^4.41.5",
+    "webpack-bundle-analyzer": "^3.6.0",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1",
-    "webpack-merge": "^4.2.2"
+    "webpack-merge": "^4.2.2",
+    "webpack-visualizer-plugin": "^0.1.11"
   },
   "husky": {
     "hooks": {
@@ -50,6 +52,7 @@
     }
   },
   "dependencies": {
+    "clean-webpack-plugin": "^3.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   }
