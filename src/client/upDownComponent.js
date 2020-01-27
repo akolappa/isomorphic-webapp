@@ -8,6 +8,7 @@ class UpDownCounter extends React.Component{
   increment = () => {
     const currentCount = this.state.count;
     this.setState({
+      // eslint-disable-next-line no-magic-numbers
       count : currentCount+1,
     })
   }
@@ -15,6 +16,7 @@ class UpDownCounter extends React.Component{
   decrement = () => {
     const currentCount = this.state.count;
     this.setState({
+      // eslint-disable-next-line no-magic-numbers
       count : currentCount-1,
     })
   }

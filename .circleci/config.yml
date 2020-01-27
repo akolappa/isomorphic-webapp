@@ -23,6 +23,9 @@ jobs:
       - run:
           name: Build
           command: npm run build:client:prod
+      - run:
+          name: Deploy
+          command: npm run firebase:deploy:hosting
 
 workflows:
   version: 2
