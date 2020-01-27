@@ -1,8 +1,14 @@
 import React from 'react';
 import { render } from 'react-dom';
+import UpDownCounter from './upDownComponent';
 
 function App () {
-  return <h1>Hello World !</h1>
+  return <div>
+    <UpDownCounter/>
+    <UpDownCounter/>
+    <UpDownCounter/>
+  </div>
+
 }
 
 render (<App/>, document.getElementById("root"));
